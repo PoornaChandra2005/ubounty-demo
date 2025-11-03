@@ -49,7 +49,7 @@ UBounty is powered by the open **x402 protocol**, enabling trustless on-chain bo
 
 ## Core Logic:
 
- · How should developers claim bounties and link their wallet address? → auto-detect PR merge, dev can link their wallet in the setting. 
- · What happens if multiple developers submit PRs for the same bounty? → Support splitting payment across multiple PRs
- · How should we detect when a PR is merged? → GitHub webhook (automatic, real-time)  
- · Should developers be able to claim a bounty BEFORE starting work? → No - only track after PR merge
+- How should developers claim bounties and link their wallet address? → auto-detect PR merge, dev can link their wallet in the setting. 
+- What happens if multiple developers submit PRs for the same bounty? → Support splitting payment across multiple PRs
+- How should we detect when a PR is merged? → GitHub webhook (automatic, real-time)  
+- Should developers be able to claim a bounty BEFORE starting work? → No - only track after PR merge
