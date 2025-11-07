@@ -4,6 +4,23 @@
 
 ---
 
+## Table of Contents
+
+1. [What is UBounty?](#what-is-ubounty)
+2. [Quick Demo: Create a Bounty in 15 Seconds](#quick-demo-create-a-bounty-in-15-seconds)
+   - [Step 1: Enter Issue Details & AI Analysis](#step-1-enter-issue-details--ai-analysis-7s)
+   - [Step 2: Pay with x402 Protocol](#step-2-pay-with-x402-protocol-8s)
+   - [Step 3: Creator Allocates Payment](#step-3-creator-allocates-payment)
+   - [Step 4: Developer Connects Wallet & Gets Paid](#step-4-developer-connects-wallet--gets-paid)
+3. [How Developers Claim Bounties](#how-developers-claim-bounties)
+4. [Payment Scenarios](#payment-scenarios)
+5. [Technical Details](#technical-details)
+6. [FAQ](#faq)
+7. [Get Started](#get-started)
+8. [Resources](#resources)
+
+---
+
 ## What is UBounty?
 
 **UBounty.ai** is an automated cryptocurrency bounty platform for GitHub issues. Fund any public GitHub issue and pay developers instantly when they solve it.
@@ -22,7 +39,7 @@
 
 ### Step 1: Enter Issue Details & AI Analysis (7s)
 
-![Create Bounty Form](./01.create-bounty.png)
+<img src="./01.create-bounty.png" alt="Create Bounty Form" width="700"/>
 
 1. **Login with GitHub** → Click "Create Bounty"
 2. **Paste GitHub issue URL**: `https://github.com/ubounty-app/ubounty-demo/issues/3`
@@ -42,7 +59,7 @@
 
 ### Step 2: Pay with x402 Protocol (8s)
 
-![x402 Payment Modal](./02.x402payment.png)
+<img src="./02.x402payment.png" alt="x402 Payment Modal" width="600"/>
 
 1. **x402 payment modal opens** showing:
    - Your wallet: `0x3828...f344`
@@ -63,7 +80,7 @@
 
 ### Step 3: Creator Allocates Payment
 
-![Payment Decision](./03.making-payment-decision.png)
+<img src="./03.making-payment-decision.png" alt="Payment Decision" width="800"/>
 
 **After developer submits PR and maintainer merges:**
 
@@ -82,7 +99,7 @@ The page shows:
 
 ### Step 4: Developer Connects Wallet & Gets Paid
 
-![Wallet Settings](./04.dev-Wallet-setting.png)
+<img src="./04.dev-Wallet-setting.png" alt="Wallet Settings" width="700"/>
 
 **Developer connects wallet to receive payment:**
 
