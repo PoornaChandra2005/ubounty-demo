@@ -61,6 +61,44 @@
 
 ---
 
+### Step 3: Creator Allocates Payment
+
+![Payment Decision](./03.making-payment-decision.png)
+
+**After developer submits PR and maintainer merges:**
+
+1. **Bounty creator reviews** all merged PRs
+2. **Allocates payment** percentage to each contributor:
+   - In this example: **@1bcMax** gets **100%** ($10.0 USDC)
+3. **Clicks "Confirm Payment Decision"**
+
+The page shows:
+- Bounty details, requirements, and acceptance criteria
+- All merged PRs with contributor names
+- Allocation interface (adjust % for multiple contributors)
+- Protection: Auto-split after 7 days if creator doesn't decide
+
+---
+
+### Step 4: Developer Connects Wallet & Gets Paid
+
+![Wallet Settings](./04.dev-Wallet-setting.png)
+
+**Developer connects wallet to receive payment:**
+
+1. **Visit Settings** at [ubounty.ai/settings](https://ubounty.ai/settings)
+2. **Enter wallet address** (starting with `0x...`)
+3. **Click "Save Wallet"**
+4. **Payment executes automatically** (3-5 seconds)
+
+**Important:**
+- ⚠️ Funds sent to Base Mainnet only
+- Double-check wallet address (payments are irreversible)
+- No deadline to connect wallet - approved payments wait indefinitely
+- Once saved, USDC arrives instantly
+
+---
+
 ## How Developers Claim Bounties
 
 ### 1. Discover Bounty
@@ -79,13 +117,26 @@ git push
 
 **Important:** Include `Fixes #3` in PR description to link to bounty!
 
-### 3. Get Paid
-1. **Maintainer merges your PR** → Bounty creator gets notified
-2. **Creator approves payment** (up to 7 days)
-3. **Connect wallet** at [ubounty.ai/settings](https://ubounty.ai/settings)
-4. **Receive USDC instantly** (3-5 seconds)
+### 3. Creator Allocates Payment
+
+![Payment Decision](./03.making-payment-decision.png)
+
+When your PR is merged, the bounty creator sees all merged PRs and decides allocation:
+
+- **Single developer**: Allocate 100% to one contributor
+- **Multiple developers**: Split payment by contribution (e.g., 70%/30%)
+- **Reject**: Allocate 0% if work doesn't meet requirements
+
+In this example:
+- Developer: **@1bcMax** (PR #4)
+- Allocation: **100%** = **$10.0 USDC**
+- Creator clicks **"Confirm Payment Decision"**
 
 **Protection:** If creator doesn't decide within 7 days, payment auto-splits equally among all merged PRs.
+
+### 4. Get Paid
+1. **Connect wallet** at [ubounty.ai/settings](https://ubounty.ai/settings)
+2. **Receive USDC instantly** (3-5 seconds after approval)
 
 ---
 
