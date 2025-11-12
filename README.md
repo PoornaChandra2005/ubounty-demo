@@ -1,4 +1,4 @@
-# UBounty.ai - End-to-End Demo
+# UBounty.ai - End-to-End Demo 
 
 > **Create & fund a GitHub bounty in 15 seconds** — no account, no KYC, no friction.
 
