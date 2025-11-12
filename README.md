@@ -230,7 +230,7 @@ No! Developers receive 100% of allocated amount. Gas fees paid by platform.
 - **Website:** [ubounty.ai](https://ubounty.ai)
 - **Full Docs:** [ProductFeatures](https://github.com/ubounty-app/ProductFeatures)
 - **BaseScan:** [basescan.org](https://basescan.org)
-- **Support:** support@ubounty.ai
+- **Support:** hello@ubounty.ai
 
 ---
 
